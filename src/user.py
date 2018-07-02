@@ -4,14 +4,14 @@ from lame_pigeon_identifier import LPIDManager
 class User:
 
     def __init__(self, user_id, name):
-        self.user_id = user_id
+        self._user_id = user_id
         self.setUserName(name)
 
     def getName(self):
         return self.name
 
     def getUserId(self):
-        return self.user_id
+        return self._user_id
 
     def setUserName(self, name):
         self.name = name
@@ -21,6 +21,9 @@ class User:
 
     def __eq__(self, other):
         return self.getUserId() == other.getUserId()
+
+    def __hash__(self):
+        return self.getUserId()
 
 
 class UserManager:

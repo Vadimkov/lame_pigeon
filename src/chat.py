@@ -29,7 +29,7 @@ class Chat:
         return self._chat_id
 
     def getAllUsers(self):
-        return self._users.values()
+        return list(self._users.values())
 
 
 class ChatManager:
