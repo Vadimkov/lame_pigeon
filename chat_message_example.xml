@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<message type="CHAT">
+    <destination chat_id="ChatId"/>
+    <send_time>26521758127878</send_time>
+    <receive_time>527625371587</receive_time>
+    <sender_user>UserId</sender_user>
+    <body>It is my message</body>
+</message>

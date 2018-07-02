@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<message type="SERVICE">
+    <send_time>26521758127878</send_time>
+    <receive_time>527625371587</receive_time>
+    <sender_user>UserId</sender_user>
+    <action type="LOGIN"/>
+</message>
